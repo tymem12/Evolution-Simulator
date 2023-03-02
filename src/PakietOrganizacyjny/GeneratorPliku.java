@@ -36,7 +36,7 @@ public class GeneratorPliku {
     public void NapiszWPliku(ArrayList<String> wyjsciowaTablica, Dane dane){
         JFileChooser chooser = new JFileChooser();
         chooser.setDialogTitle("Nazwij i Zapisz Plik");
-        chooser.setCurrentDirectory(new File("C:/Users/tymek/OneDrive/Pulpit/important rzeczy/Program Ewolucja Zdjęcia/Pliki_Po_Analizie"));
+        chooser.setCurrentDirectory(new File("C:/Users"));
         int userSelection = chooser.showSaveDialog(null);
         if (userSelection == JFileChooser.APPROVE_OPTION) {
 

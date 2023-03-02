@@ -31,7 +31,7 @@ public class ProjektGeneracja implements ActionListener, Serializable {
     public void WczytajPlik(ProjektGeneracja PrG){
         JFileChooser chooser = new JFileChooser();
 
-        chooser.setCurrentDirectory(new File("C:/Users/tymek/OneDrive/Pulpit/important rzeczy/Program Ewolucja Zdjęcia/Pliki_Serializacja"));
+        chooser.setCurrentDirectory(new File("C:/Users"));
 
         int returnValue = chooser.showOpenDialog(null);
 
@@ -89,7 +89,7 @@ public class ProjektGeneracja implements ActionListener, Serializable {
 
         JFileChooser chooser = new JFileChooser();
         chooser.setDialogTitle("Nazwij i Zapisz Plik");
-        chooser.setCurrentDirectory(new File("C:/Users/tymek/OneDrive/Pulpit/important rzeczy/Program Ewolucja Zdjęcia/Pliki_Serializacja"));
+        chooser.setCurrentDirectory(new File("C:/Users"));
         int userSelection = chooser.showSaveDialog(null);
         if(userSelection == JFileChooser.APPROVE_OPTION) {
 
