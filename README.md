@@ -1,13 +1,16 @@
 # Evolution-Simulator
 The program that uses the concept of neuroevolution to simulate the evolution of creatures
 
-
-It is my first major project created in Java.
+Project created in Java as the assignment for the course "introduction to Object Oriented Programming"
 
 The simple idea behind this project was to create a population of individuals with random "brains", which makes them take some kind of specific actions (mostly related to
 moving). The environment of these individuals is composed of two types of places: white, where individuals die at the end of their lives, and green, where they can reproduce
 and create a new population. The project shows that in each generation, individuals in the population are more likely to move in the direction of green spaces.
 
+
+# How to run
+1. Clone the repository
+2. Run file *main.java* 
 BRAIN IMPLEMENTATION DETAILS
 - Every individual has its own genome made of a given number of genes.
 - From the genome, we can unambiguously obtain information about the structure of the brain.
