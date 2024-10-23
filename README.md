@@ -10,8 +10,10 @@ and create a new population. The project shows that in each generation, individu
 
 # How to run
 1. Clone the repository
-2. Run file *main.java* 
-BRAIN IMPLEMENTATION DETAILS
+2. Run file *main.java*
+
+
+# BRAIN IMPLEMENTATION DETAILS
 - Every individual has its own genome made of a given number of genes.
 - From the genome, we can unambiguously obtain information about the structure of the brain.
 - Every gene represents one connection between two nodes.
